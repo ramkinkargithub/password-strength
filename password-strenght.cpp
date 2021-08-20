@@ -57,9 +57,9 @@ int main()
     summation = (summation * 100) / 5;
     cout << password << " satisfies " << summation << " % of neccessary criteria of a strong password" << endl;
     if (summation > 66)
-        cout << "Password Stremgth : Strong" << endl;
+        cout << "Password Strength : Strong" << endl;
     else if (summation < 67 && summation > 33)
-        cout << "Password Stremgth : Moderate" << endl;
+        cout << "Password Strength : Moderate" << endl;
     else
-        cout << "Password Stremgth : Weak" << endl;
+        cout << "Password Strength : Weak" << endl;
 }
